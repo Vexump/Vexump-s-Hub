@@ -1,0 +1,48 @@
+-- VEXUMP IS THE ORIGINAL CREATOR IS THIS SCRIPT ADD ME ON DISCORD Vexump#2733
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Vexump's Hub", "Ocean")
+
+-- Main
+local Tab = Window:NewTab("Main")
+local MainSection = Tab:NewSection("Main Scripts")
+
+-- First Button
+MainSection:NewButton("Infinity Yield Script", "Basically Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+
+end)
+-- Second Button
+MainSection:NewButton("Bypass", "Chat Bypass", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/betterbypasser",true))()
+
+end)
+-- Third Button
+MainSection:NewButton("Rizzard Script", "Makes you a Rizzard", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikhailramlal/Rizzer/main/main"))()
+
+end)
+-- Fourth Button
+MainSection:NewButton("Btools Script", "Gives you Btools", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/FE%20BTools(UPDATE1).lua"))()
+end)
+-- Fifth Button
+MainSection:NewButton("Esp Universal", "Gives you esp", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Universal-ESP-Script-(Open-Sourced)-3278"))()
+end)
+-- Sixth Button
+MainSection:NewButton("Open Ai Chat Bot", "Npc Activity", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BillsTheGod/V3RMILLION_PROJECTS/main/OpenAI.lua"))()
+end)
+-- Seventh Button
+MainSection:NewButton("Fe Transformer Script", "Let's you become a transformer", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/fe_becomecar.Lua"))()
+end)
+-- Eighth Button
+MainSection:NewButton("Fe Punch Script", "Let's you become a fighter", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Vexump/FE-Punch-Script/main/FE%20Punch%20Script?token=GHSAT0AAAAAAB6KVI4PX7NZDQBUY6UNZNCWY652HSQ"))()
+end)
+-- Ninth Button
+MainSection:NewButton("Fling Script", "Let's you fling others", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end)
